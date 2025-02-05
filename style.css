@@ -1,0 +1,139 @@
+body {
+    background-color: powderblue;
+}
+
+h1 {
+    color:#111111;
+}
+
+p {
+    color: #333333;
+}
+
+h1 {
+    color:#333333;
+    font-family: verdana;
+    font-size: 300%;
+}
+
+p {
+    color:#333333;
+    font-family: courier;
+    font-size: 160%;
+}
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+a:visited {
+    color: #333333;
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+a:hover {
+    color: #333333;
+    background-color: transparent;
+    text-decoration: underline;
+}
+  
+a:active {
+    color:#333333;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:link, a:visited {
+    background-color: transparent;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+  
+a:hover, a:active {
+    background-color: transparent;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: #111111;
+}
+
+div {
+    width:300px;
+    margin:auto;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.nav-logo img.log {
+    height: 40px;
+}
+
+.nav-logo span {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    justify-content: right;
+    list-style-type: none;
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #3b6790;
+}
+
+/* Foto Profil di halaman pertama */
+.about-photo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-photo img.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+    object-fit: cover;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1)
+}
